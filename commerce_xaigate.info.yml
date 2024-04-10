@@ -1,0 +1,9 @@
+name: Commerce Xaigate
+type: module
+description: 'Provides payment gateway Xaigate.'
+package: Commerce
+version: '1.0.0-alfa.1'
+core_version_requirement: ^9.3 || ^10
+dependencies:
+  - commerce:commerce
+  - commerce:commerce_payment

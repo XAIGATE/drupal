@@ -1,0 +1,10 @@
+commerce_xaigate.index:
+  path: 'xaigate-payment/index'
+  defaults:
+    _controller: '\Drupal\commerce_xaigate\Controller\XaigateRedirectController::index'
+  methods: ['POST']
+  options:
+    no_cache: TRUE
+  requirements:
+    _access: 'TRUE'
+
